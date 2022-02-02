@@ -15,7 +15,9 @@ public class ModelViewControllerConfig {
 	public InternalResourceViewResolver ViewResolver() {
 		InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
 		//Darshan Shirsath Pimpalner city
-		System.out.println("Darshan Shirsath Pimpalner");
+		System.out.println("Pimpalner");
+		System.out.println("Darshan");
+		System.out.println("Shirsath");
 		viewResolver.setPrefix("/WEB-INF/view/");
 		viewResolver.setSuffix(".jsp");
 		return viewResolver;
