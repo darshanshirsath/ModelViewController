@@ -14,6 +14,7 @@ public class ModelViewControllerConfig {
 	@Bean
 	public InternalResourceViewResolver ViewResolver() {
 		InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
+		//Darshan
 		viewResolver.setPrefix("/WEB-INF/view/");
 		viewResolver.setSuffix(".jsp");
 		return viewResolver;
